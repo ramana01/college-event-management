@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Sanchanala2k20</title>
+        <title>GecFest2k21</title>
         <?php require 'utils/styles.php';?>
       
         
@@ -12,28 +12,28 @@
         <?php require 'utils/header.php'; ?><!--header content. file found in utils folder-->
         <div class = "content"><!--body content holder-->
             <div class = "container">
-                <div class = "col-md-12"><!--body content title holder with 12 grid columns-->
-                    <h1 style="color:#000080 ; font-size:42px ; font-style:bold "><strong>  Register your Favourite events:</strong></h1><!--body content title-->
+                <div class = "col-md-12" ><!--body content title holder with 12 grid columns-->
+                    <h1 style="color:skybue ; font-size:42px ; font-style:bold ;margin:20px;"><strong>  Register your Favourite events:</strong></h1><!--body content title-->
 
             </div>
             
             
             <div class="container">
             <div class="col-md-12">
-            <hr>
+            
             </div>
             </div>
             
             <div class="row"><!--technical content-->
                 <section>
-                    <div class="container">
+                    <div class="container" style="border:thick solid #00BFFF; border-radius:10px;margin-bottom:10px;padding:0px;background-color: #00BFFF;">
                         <div class="col-md-6"><!--image holder with 6 grid columns-->
                             <img src="images/technical.jpg" class="img-responsive">
                         </div>
-                        <div class="subcontent col-md-6"><!--Text holder with 6 column grid-->
+                        <div class="subcontent col-md-6" style="align-center;top:80px;"><!--Text holder with 6 column grid-->
                         
-                            <h1 style="color:#003300 ; font-size:38px ;" ><u><strong>Technical Events</strong></u></h1><!--title-->
-                            <p><!--content-->
+                            <h1 style="font-size:38px ;" ><strong>Technical Events</strong></h1><!--title-->
+                            <p style="color:black ;"><!--content-->
                                 EMBRACE YOUR TECHNICAL SKILLS BY PARTICIPATING IN OUR DIFFERENT TECHNICAL EVENTS!
                             </p>
                             
@@ -49,19 +49,19 @@
             
             <div class="container">
             <div class="col-md-12">
-            <hr>
+            
             </div>
             </div>
 
             <div class="row">
                 <section>
-                    <div class="container">
+                    <div class="container" style="border:thick solid #00BFFF; border-radius:10px;margin-bottom:10px;padding:0px;background-color: #00BFFF;">
                         <div class="col-md-6"><!--image holder with 6 grid columns-->
                             <img src="images/gaming.jpg" class="img-responsive">
                         </div>
-                        <div class="subcontent col-md-6"><!--Text holder with 6 column grid-->
-                            <h1 style="color:#003300 ; font-size:38px ;"><strong><u>Gaming Events</u></strong></h1><!--title-->
-                            <p><!--content-->
+                        <div class="subcontent col-md-6" style="align-center;top:80px;"><!--Text holder with 6 column grid-->
+                            <h1 style=" font-size:38px ;"><strong>Gaming Events</strong></h1><!--title-->
+                            <p style="color:black ;"><!--content-->
                                 EMBRACE YOUR GAMING SKILLS BY PARTICIPATING IN OUR DIFFERENT GAMING EVENTS!
                             </p>
                             
@@ -78,19 +78,19 @@
             
             <div class="container">
             <div class="col-md-12">
-            <hr>
+            
             </div>
             </div>
 
             <div class="row">
                 <section>
-                    <div class="container">
+                    <div class="container" style="border:thick solid #00BFFF; border-radius:10px;margin-bottom:10px;padding:0px;background-color: #00BFFF;">
                         <div class="col-md-6"><!--image holder with 6 grid columns-->
                             <img src="images/onstage.jpg" class="img-responsive">
                         </div>
-                        <div class="subcontent col-md-6"><!--Text holder with 6 column grid-->
-                            <h1 style="color:#003300 ; font-size:38px ;"><strong><u>On-Stage Events</strong></u></h1><!--title-->
-                            <p><!--content-->
+                        <div class="subcontent col-md-6" style="align-center;top:80px;"><!--Text holder with 6 column grid-->
+                            <h1 style=" font-size:38px ;"><strong>On-Stage Events</strong></h1><!--title-->
+                            <p style="color:black ;"><!--content-->
                                 EMBRACE YOUR CONFIDENCE BY PARTICIPATING IN OUR DIFFERENT ON-STAGE EVENTS!
                             </p>
                             
@@ -107,19 +107,18 @@
             
             <div class="container">
             <div class="col-md-12">
-                <hr>
-            </div>
+                </div>
             </div>
 
             <div class="row">
                 <section>
-                    <div class="container">
+                    <div class="container" style="border:thick solid #00BFFF; border-radius:10px;margin-bottom:10px;padding:0px;background-color: #00BFFF;">
                         <div class="col-md-6"><!--image holder with 6 grid columns-->
                             <img src="images/offstage.jpg" class="img-responsive">
                         </div>
-                        <div class="subcontent col-md-6"><!--Text holder with 6 column grid-->
-                            <h1 style="color:#003300 ; font-size:38px ;"><strong><u>Off-Stage Events</u></strong></h1><!--title-->
-                            <p><!--content-->
+                        <div class="subcontent col-md-6"style="align-center;top:80px;"><!--Text holder with 6 column grid-->
+                            <h1 style="font-size:38px ;"><strong>Off-Stage Events</strong></h1><!--title-->
+                            <p style="color:black;"><!--content-->
                                  EMBRACE YOUR TALENT BY PARTICIPATING IN OUR DIFFERENT OFF-STAGE EVENTS!
                             </p>
                             

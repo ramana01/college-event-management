@@ -1,7 +1,7 @@
 <?php
 require 'classes/db1.php';
 $id=$_GET['id'];
-$result = mysqli_query($conn,"SELECT * FROM events,event_info ef,student_coordinator s,staff_coordinator st WHERE type_id = $id and ef.event_id=events.event_id and s.event_id=events.event_id and st.event_id=events.event_id  ");
+$result = mysqli_query($conn,"SELECT * FROM event_info  WHERE type_id = $id ");
 ?>
 
 
@@ -9,7 +9,7 @@ $result = mysqli_query($conn,"SELECT * FROM events,event_info ef,student_coordin
 <html>
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Sanchanala 2k20</title>
+        <title>GecFest 2k21</title>
         <title></title>
         <?php require 'utils/styles.php'; ?><!--css links. file found in utils folder-->
         

@@ -1,10 +1,8 @@
-<?php
-include_once 'classes/db1.php';?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Sanchanala 2k20</title>
+        <title>GecFest 2k21</title>
         <title></title>
         <style>
             span.error{
@@ -42,7 +40,7 @@ if (isset($_POST["update"]))
 $myusername=$_POST['name'];
 $mypassword=$_POST['password'];
 
-if($mypassword=='admin' && $myusername=='admin')
+if($mypassword=='gec@123' && $myusername=='gecfest')
 {
     echo "<script>
     alert('Login Successfull');

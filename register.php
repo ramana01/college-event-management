@@ -1,9 +1,13 @@
 
+<?php
+$reid=$_GET['eid'];
+$rename=$_GET['ename']
+?> 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Sanchalana2k20</title>
+        <title>GecFest2k21</title>
         <?php require 'utils/styles.php'; ?><!--css links. file found in utils folder-->
         
     </head>
@@ -15,6 +19,12 @@
     <form method="POST">
 
    
+        <label>Event Id:</label><br>
+        <input type="text" name="event_id" class="form-control" required readonly value="<?php echo  $reid ?>"><br><br>
+
+        <label>Event Name:</label><br>
+        <input type="text" name="event_title" class="form-control" required readonly value="<?php echo  $rename ?>"><br><br>
+
         <label>Student USN:</label><br>
         <input type="text" name="usn" class="form-control" required><br><br>
 
@@ -37,7 +47,7 @@
         <input type="text" name="college"  class="form-control" required><br><br>
 
         <button type="submit" name="update" required>Submit</button><br><br>
-        <a href="usn.php" ><u>Already registered ?</u></a>
+        
 
     </div>
     </div>
@@ -53,6 +63,8 @@
 
     if (isset($_POST["update"]))
     {
+        $event_id=$_POST["event_id"];
+        $event_title=$_POST["event_title"];
         $usn=$_POST["usn"];
         $name=$_POST["name"];
         $branch=$_POST["branch"];
@@ -66,20 +78,20 @@
         {
         
             include 'classes/db1.php';     
-                $INSERT="INSERT INTO participent (usn,name,branch,sem,email,phone,college) VALUES('$usn','$name','$branch',$sem,'$email','$phone','$college')";
+                $INSERT="INSERT INTO participent (event_id,event_title,usn,name,branch,sem,email,phone,college) VALUES('$event_id','$event_title','$usn','$name','$branch',$sem,'$email','$phone','$college')";
 
           
                 if($conn->query($INSERT)===True){
                     echo "<script>
                     alert('Registered Successfully!');
-                    window.location.href='usn.php';
+                    window.location.href='index.php';
                     </script>";
                 }
                 else
                 {
                     echo"<script>
                     alert(' Already registered this usn');
-                    window.location.href='usn.php';
+                    window.location.href='index.php';
                     </script>";
                 }
                
