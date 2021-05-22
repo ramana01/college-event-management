@@ -27,7 +27,7 @@
                     <li><a href = "index.php"><strong>Home</strong></a></li>
                     <li><a href = "contact.php"><strong>Contact Us</strong></a></li>
                     <li><a href = "aboutus.php"><strong>About us</strong></a></li>
-                    <li class="btnlogout"><a class = "btn btn-default navbar-btn" href = "login_form.php">Login <span class = "glyphicon glyphicon-log-in"></span></a></li>
+                    <li class="btnlogout"><a class = "btn btn-default navbar-btn" href = "login_form.php">Admin Login <span class = "glyphicon glyphicon-log-in"></span></a></li>
 
             
                 
